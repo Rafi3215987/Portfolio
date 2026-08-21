@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Change this to your real Docker Hub username/repo, e.g. "rafi3215987/portfolio"
-        IMAGE_NAME        = "yourdockerhubusername/portfolio"
+        IMAGE_NAME        = "MahbuburRahmanRafi/portfolio"
         IMAGE_TAG         = "${env.BUILD_NUMBER}"
         // ID of the "Username with password" credential you create in Jenkins
         DOCKERHUB_CREDS   = credentials('dockerhub-creds')
